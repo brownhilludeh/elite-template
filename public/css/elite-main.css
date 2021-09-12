@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+/*============= Global CSS  =============*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #464646;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+}
+
+.owl-carousel .owl-dots {
+  padding: 0 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-carousel button.owl-dot {
+  height: 5px;
+  width: 5px;
+  background-color: #C89E16;
+  display: inline-block;
+  margin: 0 4px;
+  border-radius: 5px;
+}
+
+.owl-carousel button.owl-dot.active {
+  background-color: #C89E16;
+}
+
+.btn-gold {
+  background: #C89E16;
+  color: #fff;
+  padding: 5px 5%;
+}
+
+.btn-gold:hover {
+  background: #fff;
+  color: #C89E16;
+  -webkit-box-shadow: 2px 1px 5px black;
+          box-shadow: 2px 1px 5px black;
+  padding: 5px 5%;
+}
+
+/*============= Nav SECTION =============*/
+nav {
+  background: #fff;
+  color: #C89E16 !important;
+}
+
+nav input {
+  width: 150px !important;
+  height: 30px !important;
+  border-radius: 50px !important;
+}
+
+nav a {
+  color: #C89E16;
+}
+
+nav a:hover {
+  color: #007744;
+}
+
+/*============= Carousel SECTION =============*/
+.carousel {
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel-indicators li {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
+.carousel-item {
+  height: 85vh;
+}
+
+.carousel-item img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -o-object-fit: center;
+     object-fit: center;
+  height: 100%;
+}
+
+.carousel-item .home-img {
+  -o-object-fit: center;
+     object-fit: center;
+  width: 100%;
+  left: auto;
+  margin: auto;
+  padding: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transform: translateX(-10%);
+          transform: translateX(-10%);
+  padding: 10px;
+}
+
+/*============= Banner SECTION =============*/
+.banner {
+  width: 100%;
+  color: #fff;
+}
+
+.banner img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner .banner-item {
+  margin: 4%;
+}
+
+.banner h3 {
+  font-size: 43px;
+  font-weight: 600;
+  text-shadow: 2px 1px 5px black;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*============= INVESTMENT SECTION =============*/
+.invests {
+  margin: 15px 0;
+}
+
+.invests .invest-item {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+.invests .invest-item h3 {
+  font-size: 48px;
+  color: #007744;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Dancing Script";
+}
+
+.invests .invest-item p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Style Script";
+  color: #C89E16;
+  margin: 5px;
+}
+
+/*============= ABOUT SECTION =============*/
+.about {
+  margin: 15px 0;
+}
+
+.about .about-item {
+  margin-bottom: 5%;
+  color: #007744;
+  font-weight: 400;
+}
+
+.about .about-item .about-text {
+  margin: 5%;
+  font-size: 18px;
+}
+
+/*============= FOOTER SECTION =============*/
+.footer {
+  background-color: #464646;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.footer .footer-item {
+  margin: 10px 5%;
+}
+
+.footer .copyright-text {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+/*# sourceMappingURL=elite-main.css.map */

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@media (max-width: 752px) {
+  .navbar-toggler {
+    font-size: 20px;
+    color: black;
+  }
+  .navbar-toggler-icon {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin: 3px 0;
+    padding-top: 5px;
+  }
+  .fa-bars {
+    color: black;
+    font-size: 18px;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+  .carousel-item {
+    height: 40vh;
+  }
+  .section-title h2 {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .banner {
+    width: 100%;
+    color: #fff;
+  }
+  .banner-item {
+    margin: 1%;
+  }
+  .banner-item p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .banner-item h3 {
+    font-size: 32px;
+  }
+  .about-text {
+    font-size: 11px;
+  }
+  .footer-item h5 {
+    padding-left: 20px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+    scrollbar-width: 0;
+  }
+}
+/*# sourceMappingURL=elite-mobile.css.map */
